@@ -1,0 +1,57 @@
+package Day19doWwhileLoop;
+
+import java.util.Scanner;
+
+public class dowhile5 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+/*
+		Soru 5 ) Kullanicidan bir sifre girmesini isteyin. Girilen sifreyi asagidaki sartlara gore kontrol edin ve sifredeki hatalari yazdirin.
+	 Kullanici gecerli bir sifre girinceye kadar bu islemi tekrar edin ve gecerli sifre girdiginde “Sifreniz Kabul edilmistir” yazdirin.
+	 - Sifre kucuk harf icermelidir
+	 - Sifre buyuk harf icermelidir
+	 - Sifre ozel karakter icermelidir
+	 - Sifre en az 8 karakter olmalidir.
+
+	Rýdvan Adaklý  11:14 PM
+	*/
+	
+	// tek seferde olmasý için tüm hatalarý baþtan söylemeli
+	
+	Scanner scan=new Scanner(System.in);
+	
+	
+	String sifre="";
+	
+	do {
+		System.out.println("lütfen þifre griniz");
+		
+		 sifre=scan.nextLine();  // bir obje bir kere !!!!!
+		
+		
+		
+		
+	}while();
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	}
+
+}

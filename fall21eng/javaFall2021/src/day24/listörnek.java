@@ -1,0 +1,52 @@
+package day24;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class listörnek {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+List<String>harf=new ArrayList<>();
+
+harf.add("a");
+harf.add("b");
+harf.add("c");
+
+
+List<String>harf2=new ArrayList<>();
+harf2.add("c");
+harf2.add("b");
+harf2.add("z");
+
+System.out.println(harf.removeAll(harf2));
+System.out.println(harf);
+System.out.println(harf2);
+
+	System.out.println(harf2.size());
+	System.out.println(harf2.isEmpty());
+	
+	List<Integer>rakam=new ArrayList<>();
+	
+	rakam.add(1);
+	rakam.add(2);
+	rakam.add(4);
+	rakam.add(7);
+	 System.out.println(rakam);
+	 
+	System.out.println(rakam.remove(2));
+	
+	System.out.println(rakam);
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	}
+
+}

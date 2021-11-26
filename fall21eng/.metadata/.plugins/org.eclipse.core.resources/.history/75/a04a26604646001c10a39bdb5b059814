@@ -1,0 +1,53 @@
+package Day19doWwhileLoop;
+
+import java.util.Scanner;
+
+public class soruwhile {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+	//	oru 6 ) Kullanicidan bir sayi alin ve bu sayiyi tam bolen sayilari ve toplam 
+//           kac tane olduklarini ekranda yazdirin
+	
+	
+	Scanner scan=new Scanner(System.in);
+	
+	System.out.println("lütfen sayý");
+	int sayý=scan.nextInt();
+	
+	
+	int adet=0;
+	int bölen=1;
+	
+	while (bölen<=sayý) {
+		if (sayý%bölen==0) {
+			System.out.print(bölen+" ");
+		adet++;
+		
+		}
+		bölen++;
+		
+	}
+	System.out.println();
+	System.out.println("tam  sayýsý:"+(adet));
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	}
+
+}

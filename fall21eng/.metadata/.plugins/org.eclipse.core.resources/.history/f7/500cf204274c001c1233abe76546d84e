@@ -1,0 +1,50 @@
+package day23;
+
+public class Arraysorularý1 {
+
+	public static void main(String[] args) {
+		// verilen array den istenen degere sahip elemnetleri silip kalaný yeni bir arra olarak kaydeden 
+		// kaydedin ve sonra yeni arrayý yazdýrýn
+		
+
+	int [] arr= { 3, 4, 5, 6,  3, 5, 8, 3, 4, 9};
+	int silinecekeleman=5;
+	
+	// arrayae ekleme yapamayýz 
+	// arrayden eleman silemeyiz
+	
+	// slinecek eleman sayýsýný bul
+	
+	
+	int sayaç=0;
+	
+	for (int i = 0; i < arr.length; i++) {
+		if (arr[i]==silinecekeleman) {
+	          sayaç++;		
+		}
+	}
+	System.out.println(sayaç);
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	}
+
+}

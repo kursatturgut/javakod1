@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;days02.C01_variables&apos; to &apos;C01_Variables&apos;&#x0D;&#x0A;- Original project: &apos;javaFall2021&apos;&#x0D;&#x0A;- Original element: &apos;days02.C01_variables&apos;&#x0D;&#x0A;- Renamed element: &apos;days02.C01_Variables&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;C01_variables&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;days02{C01_variables.java[C01_variables" matchStrategy="1" name="C01_Variables" qualified="false" references="true" similarDeclarations="false" stamp="1635098758333" textual="false" version="1.0"/>
+</session>

@@ -1,0 +1,40 @@
+package halukhocadersarray;
+
+public class arr8 {
+
+	public static void main(String[] args) {
+		
+		/*   $ ve  £  isareti olanlarin toplamlarini ayri ayri bulun
+        String str = "$1 $23 $134 $2 $7 $24 £32 £40 £2 £65 £4 ";
+        */
+		String str = "$1 $23 $134 $2 $7 $24 £32 £40 £2 £65 £4 ";
+		
+		
+		str.split(" ");
+		System.out.println(str);
+		
+		
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	}
+
+}

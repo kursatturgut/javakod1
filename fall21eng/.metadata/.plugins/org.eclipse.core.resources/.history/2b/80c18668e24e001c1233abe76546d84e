@@ -1,0 +1,36 @@
+package day25arraylistremove;
+
+import java.util.Arrays;
+import java.util.List;
+
+public class ListeCevirmeArraysaslist {
+
+	public static void main(String[] args) {
+		//Verilen arrayı Arrays clasından ayrdım alarak lıste ceviririz
+		
+		String arr[]= {"3","5","7","3"};
+   List<String>arraydanliste=Arrays.asList(arr);
+System.out.println(arraydanliste);
+	
+	
+	// arraydan list olana add. ekleme yapamayız 
+	
+	
+	arr[1]="z";
+	System.out.println(arraydanliste); // array değişirse liste değişiyor
+	
+	
+	arraydanliste.set(0, "r");
+	System.out.println(arraydanliste);
+	System.out.println(Arrays.toString(arr));
+	
+	
+	
+	
+	
+	
+	
+	
+	}
+
+}

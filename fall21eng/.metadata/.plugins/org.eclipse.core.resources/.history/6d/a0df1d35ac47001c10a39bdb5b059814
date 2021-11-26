@@ -1,0 +1,50 @@
+package javahazýrlýkders;
+
+import java.util.Scanner;
+
+public class Çalýþma {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+/*
+		Ask user to enter a name and a character, then check how many times the character is repeated in the name using loops in the name
+
+		e.g:
+
+		char ch1= 'a' ;
+
+		String name =“John came late"
+
+		Expected Output: Number of a = 2
+*/	
+	Scanner scan =new Scanner(System.in);
+	System.out.println("lütfenbir isim ve entere basýp bir carakter griniz");
+	String isim=scan.nextLine();
+	String karakter=scan.nextLine();
+	int sayaç=0;
+	
+	
+	
+	/*
+	do {
+	System.out.println(isim.contains(karakter));	
+	sayaç+=1;
+	} while (isim.length()<=isimu);
+	*/
+	for (int i = 0; i < isim.length(); i++) {
+	System.out.println(karakter.contains(isim.substring(i, i+1)));
+		sayaç++;
+		i++;
+	}
+	System.out.println(sayaç);
+	
+	
+	
+	
+	
+	
+	
+	
+	}
+
+}

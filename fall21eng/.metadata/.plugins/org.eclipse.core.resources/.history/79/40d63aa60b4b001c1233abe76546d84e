@@ -1,0 +1,42 @@
+package day22Arrays;
+
+import java.util.Arrays;
+
+public class SplitArray1 {
+
+	public static void main(String[] args) {
+		//"java ögrendim,  &cok para ?kazandým.,"
+
+	// cümlesinin kelimelerini noktalama ve özel karakterler olmadan 
+	//	harf sýrasýna göre yazdýralým 
+		
+	String cumle="java ögrendim,  &cok para ?kazandým.,";
+	
+	String yeni[]=cumle.split(" ");
+	System.out.println(Arrays.toString(yeni));
+	
+	for (int i = 0; i < yeni.length; i++) {
+		
+	yeni[i]=yeni[i].replaceAll("\\W", "");
+	System.out.println(yeni[i]);
+	
+	}
+	
+	System.out.println(Arrays.toString(yeni));
+	
+	Arrays.sort(yeni);
+	System.out.println(Arrays.toString(yeni));
+	
+	for (int i = 0; i < yeni.length; i++) {
+		System.out.print(yeni[i]);
+	}
+	
+	
+	
+	
+	
+	
+	
+	}
+
+}

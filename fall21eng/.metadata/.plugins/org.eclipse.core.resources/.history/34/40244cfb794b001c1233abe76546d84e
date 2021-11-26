@@ -1,0 +1,38 @@
+package day22Arrays;
+
+import java.util.Arrays;
+
+public class Arrayörnek {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// "java öğrenmek cok güzel "
+		// ters sırada yazdır 
+	
+	String cumle="java öğrenmek çok güzel";
+	
+		String []arr=cumle.split(" ");
+		
+	System.out.println(Arrays.toString(arr));
+	
+	for (int i = arr.length; i >= 0; i--) {
+		
+	System.out.println(arr[i]);
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	}
+
+}

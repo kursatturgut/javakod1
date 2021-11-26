@@ -1,0 +1,43 @@
+package day23;
+
+public class Arrayssoru34 {
+
+	public static void main(String[] args) {
+		// multýdimensýonal array iç içe arraydir
+		// olusturmak için 2 yöntem vardý
+		//
+		int arr[][]=new int [3][2];
+		
+		System.out.println(arr);
+
+	System.out.println(arr[1]);
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	}
+
+}

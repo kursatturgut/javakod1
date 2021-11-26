@@ -1,0 +1,61 @@
+package day24;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Arraylist2 {
+
+	public static void main(String[] args) {
+		// 
+
+	
+	List<String>isimler= new ArrayList<>();
+	System.out.println(isimler);
+	
+	isimler.add("ali");
+	isimler.add("veli");
+	System.out.println(isimler);
+	
+	isimler.add("can");
+	System.out.println(isimler);
+	
+	isimler.add(1, "ahmet");
+	
+	System.out.println(isimler);
+	
+	// isimler.add(5); declare ederken belirttiðimiz data türü haricinde data türü kleyemeyiz
+	
+	List<String> liste2= new ArrayList<>();
+	 liste2.add("halý");
+	 liste2.add("alý");
+	 System.out.println(liste2);
+	
+	 isimler.addAll(0, liste2);
+	 System.out.println(isimler);
+	 
+	 isimler.addAll(5, liste2);
+	 System.out.println(isimler);
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	}
+
+}

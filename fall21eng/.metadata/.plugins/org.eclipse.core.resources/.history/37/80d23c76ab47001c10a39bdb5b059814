@@ -1,0 +1,45 @@
+package _07_ForLoop;
+
+import java.util.Scanner;
+
+public class Q03 {
+    public static void main(String[] args) {
+
+        /*
+        Girilen bir stringdeki a harfi sayısını bulunuz.
+        ama  c harfine  gelirse döngüden çıkılsın
+
+        Bugün hava oldukca güzel.-> 2
+         
+
+         */
+        
+   Scanner scan=new Scanner(System.in);
+   System.out.println("l�tfen ");
+   String c�mle=scan.nextLine();
+   
+    
+   for (int i = 0; i < c�mle.length()-1; i++) {
+	
+//if (c�mle.toLowerCase().charAt(i)=="a") {
+	
+}
+   
+   
+   
+   
+   } 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    }
+
+}

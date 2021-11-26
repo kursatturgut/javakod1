@@ -1,0 +1,40 @@
+package nestedfor_whileloop;
+
+import java.util.Scanner;
+
+public class while234 {
+
+	public static void main(String[] args) {
+		// kullanýcýdan toplamak üzersayý isteyin
+		// kullanýcý sýfýra basýncaya kara sayýlarý alýp toplamaya devam edin
+// kullanýcý sýfra bastýgýnda o ana kadar kac sayý girdiðini ve toplamlarýný yazdrýn
+		Scanner scan=new Scanner(System.in);
+		
+		
+		int toplam=0;
+		int sayý=10;
+		int sayaç=-1;
+		
+		while (!(sayý==0)) {
+		System.out.println("lütfen toplamak için sayý griniz");	
+		sayý=scan.nextInt();
+		toplam+=sayý;
+		sayaç++;
+		
+			
+		}
+		
+		System.out.println(toplam);
+		System.out.println(sayaç);
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

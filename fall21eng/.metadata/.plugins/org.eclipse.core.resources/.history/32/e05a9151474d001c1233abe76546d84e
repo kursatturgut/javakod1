@@ -1,0 +1,37 @@
+package halukhocadersarray;
+
+public class array3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		 //bir int Array elemanlarinin iþaretini(+-)degistiren  bir method yaziniz.
+        // input : 1,2,-3,4,-5,-6
+        //output :-1,-2,3,-4,5,6
+
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	}
+
+}

@@ -1,0 +1,10 @@
+package day20scope;
+
+public class instanceVariable {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

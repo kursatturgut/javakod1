@@ -1,0 +1,36 @@
+package day25arraylistremove;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class listdevam {
+
+	public static void main(String[] args) {
+		// verilen bir listede içinde belirli harf olan elamanları silen program metod  yazınız 
+		
+		List<String>str=new ArrayList<>();
+		
+		str.add("ali");
+		str.add("eli");
+		str.add("turgut");
+		str.add("fali");
+System.out.println(str);
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	}
+
+}

@@ -1,0 +1,27 @@
+package day25arraylistremove;
+
+import java.util.Arrays;
+
+public class arraySet {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	int arr[]= {1,2,3};
+	Arrays.binarySearch(arr, 0);
+	
+	System.out.println(Arrays.binarySearch(arr, 1));
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	}
+
+}

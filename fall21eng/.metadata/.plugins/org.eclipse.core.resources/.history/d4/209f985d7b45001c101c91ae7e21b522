@@ -1,0 +1,59 @@
+package nestedfor_whileloop;
+
+import java.util.Scanner;
+
+public class nestedfoorloop {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	// iki tamsayı al
+		// ilk sayıdan başlayarak   ikinci sayıya  kadar 3 er 3 er yazdırın 
+		// ikinci sayı dahil olmak zorunda değil
+	
+		Scanner scan=new Scanner(System.in);
+		System.out.println("lütfen iki sayı griniz");
+		int sayı1=scan.nextInt();
+	    int sayı2=scan.nextInt();
+	
+	if (sayı1>sayı2) {
+		
+		for (int i = sayı1; i > sayı2; i-=3) {
+			System.out.print(i+" ");
+		}
+		
+		
+		
+		
+	} else if (sayı1<sayı2) {
+		for (int i = sayı1; i < sayı2; i+=3) {
+			System.out.print(i+" ");
+		}
+		
+	} else {
+System.out.println("girilen sayılar esşittir");
+	}{
+
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	}
+
+}

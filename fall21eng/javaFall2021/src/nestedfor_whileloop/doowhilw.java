@@ -1,0 +1,39 @@
+package nestedfor_whileloop;
+
+public class doowhilw {
+public static void main(String[] args) {
+	// Soru 2 ) 'm' harfinden baslayarak 'c' harfine kadar tum harfleri yazdirin.
+
+
+char bas='m';
+
+
+do {
+	System.out.print(bas);
+	bas--;
+} while (bas>='c');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+}

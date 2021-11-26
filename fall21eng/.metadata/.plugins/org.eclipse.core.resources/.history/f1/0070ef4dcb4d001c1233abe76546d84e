@@ -1,0 +1,46 @@
+package halukhocadersarray;
+
+public class array5 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		 /*
+         * write a java program that calculates the average value of array elements
+         * Print elements that are greater than avarage
+         * (dizi elemanlarinin ortalama degerini hesaplayan ve
+         * ortalamadan büyük olan elemanlari yazdýran bir java programi yazin)
+         * input[]= {1,2,3,4,5,6,7}
+         * Output : 4
+         */
+	
+		int input[]= {1,2,3,4,5,6,7};
+	int	ortalama=0;
+  int toplam=0;
+  
+	
+  
+  for (int i = 0; i < input.length; i++) {
+	  toplam+=input[i];
+	  ortalama=toplam/input.length;
+		if (input[i]>ortalama) {
+			System.out.print(input[i]);
+		}
+	}
+	System.out.println();
+		System.out.println(ortalama);
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	}
+
+}

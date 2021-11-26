@@ -1,0 +1,48 @@
+package nestedfor_whileloop;
+
+import java.util.Scanner;
+
+public class loop1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	
+		// Soru 6 ) Kullanicidan bir sayi alin 
+				//          ve bu sayiyi tam bolen sayilari 
+				// ve ve toplam kac tane tanelerini tanelerini gösterilen yazdirin
+				
+	
+	Scanner scan =new Scanner(System.in);
+	System.out.println("lütfen tam bölenlerini öðrenmek istediðiniz sayýyý griniz");
+	int sayý=scan.nextInt();
+	int sayaç=0;
+	int toplam=0;
+	
+	for (int i = 1; i < sayý; i++) {
+		
+		if (sayý%i==0) {
+			
+			toplam+=i;
+			sayaç++;
+			System.out.println(i);
+		}
+		
+		}
+	System.out.println("kalansýz bölen sayý"+sayaç);
+	System.out.println(toplam);
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	}
+
+}

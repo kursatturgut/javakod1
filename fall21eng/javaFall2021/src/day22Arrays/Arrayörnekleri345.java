@@ -1,0 +1,24 @@
+package day22Arrays;
+
+import java.util.Arrays;
+
+public class Arrayörnekleri345 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		//"java ögrendim,  &cok para ?kazandým.,"
+
+		// cümlesinin kelimelerini noktalama ve özel karakterler olmadan 
+		//	harf sýrasýna göre yazdýralým 
+		
+		String cumle="java ögrendim,  &cok para ?kazandým.,";
+		
+	String[]cumle1=cumle.split(" ");
+	System.out.println(Arrays.toString(cumle1));
+	
+	Arrays.sort(cumle1);
+	
+	System.out.println(Arrays.toString(cumle1));
+	}
+}

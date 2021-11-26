@@ -1,0 +1,48 @@
+package nestedfor_whileloop;
+
+import java.util.Scanner;
+
+public class methodqw {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		/* StringMethods
+		 Dize girildiginde ilk iki karakteri haric dize dönüþ eden java programi yaziniz
+		 Ama ilk karakter 'g' ve ikinci karakter 'h' ise bu karakter de return edilsin
+		          ORNEK:
+		 GÝrÝþ : keçi
+		 fotoðraf
+		 hayalet
+		                         kalem
+		 ÇIKIÞ : gat
+		                         hoto
+		 hayalet
+		                         lem
+				 */
+	
+	Scanner scan =new Scanner (System.in);
+	System.out.println("lütfen bir string griniz");
+	String dize=scan.nextLine();
+	
+	
+	System.out.println(hariç(dize));
+		}
+
+	public static String hariç(String dize) {
+		
+		if (dize.toLowerCase().substring(0, 1).endsWith("g") || dize.toLowerCase().substring(0, 1).endsWith("h")) {
+			dize=dize;
+		} else {
+dize=dize.substring(2);
+		}
+		
+		
+		
+		
+		
+		return dize;
+		
+		
+	}
+
+}

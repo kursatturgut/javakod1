@@ -1,0 +1,38 @@
+package day24;
+
+public class ddddd {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		System.out.println("╔═════════ OGRENCI PROJE UYGULAMASI ═════════╗");
+		System.out.println("║                                            ║");
+		System.out.println("║           1 - OGRENCI EKLEME               ║");
+		System.out.println("║                                            ║");
+		System.out.println("║           2 - OGRENCI SILME                ║");
+		System.out.println("║                                            ║");
+		System.out.println("║           3 - OGRENCI LISTESI              ║");
+		System.out.println("║                                            ║");
+		System.out.println("║           4 - ÇIKIŞ                        ║");
+		System.out.println("║                                            ║");
+		System.out.println("╚══════ DESING BY ZEKADEMI (Zekeriya) ═══════╝");
+		System.out.println();		
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	}
+
+}

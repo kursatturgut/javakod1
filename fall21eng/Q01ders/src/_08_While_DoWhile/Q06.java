@@ -1,0 +1,47 @@
+package _08_While_DoWhile;
+
+import java.util.Scanner;
+
+public class Q06 {
+	
+	static int bolum=0;
+
+	public static void main(String[] args) {
+	// kullanicidan bolunen ve bolen seklinde 2 sayi alalim ve bolme operatoru 
+	//kullanmadan bolme islemini gerceklestirip bolumu hesaplayan method create ediniz.
+		Scanner scan=new Scanner(System.in);
+		System.out.println("lütfeb bölünecek sayýyý griniz");
+	int bölünen =scan.nextInt();
+	System.out.println("lütfen bölen sayýyý griniz");
+int bölen=scan.nextInt();
+		
+		
+		bol(bölünen, bölen);
+	System.out.println(bolum);
+	
+	}
+
+	public static int bol(int bolünen ,int bölen) {
+		while (bolünen>=bölen) {
+			bolünen-=bölen;
+			bolum++;
+		}
+		
+		
+		
+		
+		
+		return bolum;
+		
+		
+		
+		
+	}
+	
+	
+	
+	
+	
+}
+
+

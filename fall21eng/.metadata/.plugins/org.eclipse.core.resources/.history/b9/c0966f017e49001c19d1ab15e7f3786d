@@ -1,0 +1,38 @@
+package nestedfor_whileloop;
+
+import java.util.Scanner;
+
+public class loop3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// Kullanicidan 10'dan pozitif küçük bir tamsayi törencin
+				// girdigi sayiya gore asagidaki sekli yazdirin
+				// orn : 3 girlik
+				// 1
+				// 1 2
+				// 1 2 3
+	
+	Scanner scan =new Scanner (System.in);
+	System.out.println("10dan küçük sayý giniz");
+	int sayý=scan.nextInt();
+	
+	for (int i = 1; i <= 1; i++) {
+		
+	for (int j = i; j <= 3; j++) {
+		System.out.print(j);
+	}
+	System.out.println(i);
+	}
+	
+	System.out.print("");
+	
+	
+	
+	
+	
+	
+	
+	}
+
+}
