@@ -1,0 +1,23 @@
+package Day26foreach;
+
+public class JeepRunner {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		Jeep ab = new Jeep();
+		
+		System.out.println(ab);
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,14 @@
+package Day26foreach;
+
+public class Car {
+
+int yýl;
+String renk;
+String model;
+int km;
+boolean satýlýkMý;
+
+
+
+
+}

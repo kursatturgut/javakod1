@@ -1,0 +1,35 @@
+package halukhocadersarray;
+
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class ArrayBölünme {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		  // Kullanicidan aldigimiz 8 elemanli arrayin icinde
+        // kac tane 3 e bolunebilen sayi vardir ?(negatif sayilar da dahil olsun)
+	
+	Scanner scan=new Scanner(System.in);
+	System.out.println("lütfen 8 adet dizi sayýsý griniz");
+	int sayýlar=scan.nextInt();
+
+int dizi[]=new int[8];
+for (int i = 0; i < dizi.length; i++) {
+	dizi[i]=scan.nextInt();
+}
+	
+System.out.println(Arrays.toString(dizi));	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	}
+
+}
